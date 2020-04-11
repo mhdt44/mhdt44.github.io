@@ -1,8 +1,30 @@
 h1 {
     color: rgb(0,153,204);
+    font-size: 150%;
+    font-family: sans-serif;
 } 
+img {
+  float: right;
+}
+h3 {
+    color: dimgray;
+    font-size: 100%
+}
+h3+p {
+    font-style:italic;
+}
+.gray {
+    color: dimgray;
+}
+.osu {
+    color:darkorange
+}
+.mizzou {
+    color:darkgoldenrod
+}
 footer {
     font-size: 10pt;
+    clear:left;
 }
  
 a {text-decoration: none;
