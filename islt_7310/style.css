@@ -1,6 +1,26 @@
 h1 {
     color: rgb(0,153,204);
 }
+        
+a {text-decoration: none;
+        font-size: 10pt;
+        }
+a:link {
+        color: #9966cc;
+}
+a:visited {
+        color: #ffcc33;
+}
+a:focus {   
+        color: #9966cc;
+}
+a:hover {
+        color: #cc0066;
+}
+a:active {
+        color: #ffcc33;
+}
+  
 footer {
     font-size: 10pt;
 }
