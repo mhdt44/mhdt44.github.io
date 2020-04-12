@@ -1,11 +1,14 @@
+* {
+    font-family: sans-serif;
+}
 body {
-    background-color: aliceblue;
+    background-color: floralwhite;
 }
 h1 {
-    color: rgb(0,153,204);
+    color: #0099cc;
     font-size: 150%;
     font-family: sans-serif;
-    border:1px dashed red;
+    border:1px dashed darkblue;
     padding: 10px;
 } 
 img {
@@ -21,21 +24,36 @@ h3+p {
     font-style:italic;
 }
 .gray {
-    color: dimgray;
+    color: darkslategrey;
 }
-.osu {
+.osu {                          /*Colors for lists*/
     color:darkorange
 }
 .mizzou {
     color:darkgoldenrod
 }
+.current {
+    color:cornflowerblue;
+}
+.complete {
+    color:darkblue;
+}
+.future {
+    color:darkturquoise;
+}
+body {
+    margin: 15px;
+}
 footer {
     font-size: 10pt;
     clear:left;
     border:1px solid black;
-    width: 40%; 
+    width: 40%;
+    padding: 5px;
 }
- 
+ul {
+    list-style-type:square;
+}
 a {text-decoration: none;
         font-size: 10pt;
 }
