@@ -3,6 +3,8 @@
 }
 body {
     background-color: floralwhite;
+    margin: 15px;
+    width: 960px;
 }
 h1 {
     color: #0099cc;
@@ -15,13 +17,6 @@ img {
     float: right;
     margin: 10px;
     padding: 10px
-}
-h3 {
-    color: dimgray;
-    font-size: 100%
-}
-h3+p {
-    font-style:italic;
 }
 .gray {
     color: darkslategrey;
@@ -40,9 +35,6 @@ h3+p {
 }
 .future {
     color:darkturquoise;
-}
-body {
-    margin: 15px;
 }
 footer {
     font-size: 10pt;
@@ -71,4 +63,25 @@ a:hover {
 }
 a:active {
         color: #ffcc33;
+}
+@media screen and (max-width: 960px) {
+    body {
+        width:50%;
+    }
+    img {
+        width: 100%;
+        }      
+}
+@media screen and (max-width: 640px){
+     body {
+        width:100%;
+    }
+    img {
+        width: 100%;
+        }   
+}
+@media screen and (max-width: 320px){
+    body{
+        width: 320px;
+    }
 }
