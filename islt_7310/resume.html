@@ -10,7 +10,8 @@
         Tested: April 26, 2020
         -->
     <meta charset="utf-8">
-        
+   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon_io/favicon.ico">
+   
     <title>Resume - Martina Diaz</title>
         
         <link rel="stylesheet" href="style.css">
@@ -29,18 +30,32 @@ div {
   margin: 5px; 
     text-align: center;
         }
+        .iframe-container{
+            position: relative;
+            width: 75%;
+            padding: 56%;
+            height: 0;
+        }
+        .iframe-container iframe{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 75%;
+            height:100%;
+        }
     </style>
     </head>
     <body>
 <nav>
+            <label id="menu">&#9776;</label>
     <ul class="nav">
-        <li><a href="index.html" >Home</a></li>
-        <li><a class="hide" href="resume.html">Resume</a></li>
-        <li><a class="hide"  href="background.html">Background</a></li>
-        <li><a class="hide" href="reflection.html">Reflection</a></li>
-        <li><a class="hide" href="#contact.html">Contact</a></li>
-        <li><a class="hide" href="#projects.html">Projects</a>
-            <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="#contact.html">Contact</a></li>
+        <li><a href="#projects.html">Projects</a>
+            <ul id ="hide">
                 <li><a href="#">Project 1</a></li>
                 <li><a href="#">Project 2</a></li>
                 <li><a href="#">Project 3</a></li>
@@ -48,10 +63,20 @@ div {
         </li>
     </ul>
     </nav>
-        <div><a class="resume" href="docs/diazresume.pdf">Resume</a></div>
+        <div><a class="resume" href="docs/diazresume.pdf">Resume</a></div>  
+        <!--I will insert my video when I am finished with it-->
+        <div class="iframe-container"><iframe width="186" height="105" src="https://www.youtube.com/embed/e05V9W3UHOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
      
  <footer>
-    <p>&copy; Copyright 2020, Martina Diaz <a href="mailto:mhdt44@mail.missouri.edu">mhdt44@mail.missouri.edu</a></p>
+     <container>
+     <p>&copy; Copyright 2020, Martina Diaz </p>
+<p> <img class="footerimg" src="https://img.icons8.com/office/16/000000/email.png"/>    
+    <a href="mailto:mhdt44@mail.missouri.edu">mhdt44@mail.missouri.edu</a></p>
+   
+   <p><img class="footerimg" src="https://img.icons8.com/office/16/000000/phone.png"/>670-888-8888</p>
+    <p><a href="https://icons8.com/icon/30428/phone">Phone icon by Icons8</a></p>
+    <p><a href="https://icons8.com/icon/21342/email">Email icon by Icons8</a></p>
+         </container>
     </footer>
 </body>
 </html>

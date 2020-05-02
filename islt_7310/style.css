@@ -2,7 +2,6 @@
     font-family: sans-serif;
 }
 body {
-    background-color: floralwhite;
     margin: 15px;
     width: 960px;
 }
@@ -41,7 +40,12 @@ footer {
     clear:left;
     border:1px solid black;
     width: 40%;
-    padding: 5px;
+    padding: 5px;   
+    background-image: url(images/background_footer.jpg)
+    background-size: cover; 
+}
+.footerimg {
+    float: left;
 }
 ul {
     list-style-type:square;
@@ -78,7 +82,6 @@ a:active {
     }
     img {
         width: 100%;
-        }   
 }
 @media screen and (max-width: 320px){
     body{
