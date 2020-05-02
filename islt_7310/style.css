@@ -1,3 +1,10 @@
+@font-face { 
+
+font-family: Roboto, sans-serif; /*this is where we give our font a name so we can use it!*/
+
+src: url("fonts/Roboto/Roboto.ttf"); /*remember this is how we link to files in CSS!*/
+
+}
 * {
     font-family: sans-serif;
 }
@@ -8,7 +15,7 @@ body {
 h1 {
     color: #0099cc;
     font-size: 150%;
-    font-family: sans-serif;
+    font-family: font-family: 'Roboto', sans-serif;
     border:1px dashed darkblue;
     padding: 10px;
 } 
@@ -34,6 +41,9 @@ img {
 }
 .future {
     color:darkturquoise;
+}
+blockquote {
+    font-family: 'Roboto', sans-serif;
 }
 footer {
     font-size: 10pt;
@@ -88,3 +98,15 @@ a:active {
         width: 320px;
     }
 }
+    @media print {
+        *{
+            background: transparent !important;
+            color: black !important;
+            font-family: sans-serif;
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
+        nav, .footerimg {
+            display: none;
+        }
+    }
