@@ -1,0 +1,112 @@
+@font-face { 
+
+font-family: Roboto, sans-serif; /*this is where we give our font a name so we can use it!*/
+
+src: url("fonts/Roboto/Roboto.ttf"); /*remember this is how we link to files in CSS!*/
+
+}
+* {
+    font-family: sans-serif;
+}
+body {
+    margin: 15px;
+    width: 960px;
+}
+h1 {
+    color: #0099cc;
+    font-size: 150%;
+    font-family: font-family: 'Roboto', sans-serif;
+    border:1px dashed darkblue;
+    padding: 10px;
+} 
+img {
+    float: right;
+    margin: 10px;
+    padding: 10px
+}
+.gray {
+    color: darkslategrey;
+}
+.osu {                          /*Colors for lists*/
+    color:darkorange
+}
+.mizzou {
+    color:darkgoldenrod
+}
+.current {
+    color:cornflowerblue;
+}
+.complete {
+    color:darkblue;
+}
+.future {
+    color:darkturquoise;
+}
+blockquote {
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    font-size: 10pt;
+    clear:left;
+    border:1px solid black;
+    width: 40%;
+    padding: 5px;   
+    background-image: url(images/background_footer.jpg)
+    background-size: cover; 
+}
+.footerimg {
+    float: left;
+}
+ul {
+    list-style-type:square;
+}
+a {text-decoration: none;
+        font-size: 10pt;
+}
+a:link {
+        color: #9966cc;
+}
+a:visited {
+        color: #ffcc33;
+}
+a:focus {   
+        color: #9966cc;
+}
+a:hover {
+        color: #cc0066;
+}
+a:active {
+        color: #ffcc33;
+}
+@media screen and (max-width: 960px) {
+    body {
+        width:50%;
+    }
+    img {
+        width: 100%;
+        }      
+}
+@media screen and (max-width: 640px){
+     body {
+        width:100%;
+    }
+    img {
+        width: 100%;
+}
+@media screen and (max-width: 320px){
+    body{
+        width: 320px;
+    }
+}
+    @media print {
+        *{
+            background: transparent !important;
+            color: black !important;
+            font-family: sans-serif;
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
+        .nav, .footerimg {
+            display: none;
+        }
+    }
