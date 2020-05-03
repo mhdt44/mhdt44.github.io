@@ -51,11 +51,23 @@ footer {
     border:1px solid black;
     width: 40%;
     padding: 5px;   
-    background-image: url(images/background_footer.jpg)
+    background-image: url(images/background_footer.jpg);
     background-size: cover; 
 }
 .footerimg {
     float: left;
+    width: 50px;
+    height: 50px;
+}
+.footerimgbig {
+    position: absolute;
+    width: 0px;
+    -webkit-transition:width 0.3s linear 0s;
+    transition:width 0.3s linear 0s;  
+}
+.footerimg:hover + footerimgbig {
+    width: 100px;
+    
 }
 ul {
     list-style-type:square;
