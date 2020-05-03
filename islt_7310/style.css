@@ -1,6 +1,6 @@
 @font-face { 
 
-font-family: Roboto, sans-serif; /*this is where we give our font a name so we can use it!*/
+font-family: 'Roboto', sans-serif; /*this is where we give our font a name so we can use it!*/
 
 src: url("fonts/Roboto/Roboto.ttf"); /*remember this is how we link to files in CSS!*/
 
@@ -15,7 +15,7 @@ body {
 h1 {
     color: #0099cc;
     font-size: 150%;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border:1px dashed darkblue;
     padding: 10px;
 } 
@@ -106,7 +106,7 @@ a:active {
             box-shadow: none !important;
             text-shadow: none !important;
         }
-        nav, .footerimg {
+        .footerimg {
             display: none;
         }
     }

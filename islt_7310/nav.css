@@ -111,3 +111,6 @@ nav ul li ul li a {
         display: none;
     }
     }
+@media print {
+    display: none;
+}
