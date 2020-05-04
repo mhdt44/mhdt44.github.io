@@ -112,5 +112,7 @@ nav ul li ul li a {
     }
     }
 @media print {
+    nav {
     display: none;
+    }
 }
