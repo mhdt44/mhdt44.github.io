@@ -105,6 +105,13 @@ a:active {
     img {
         width: 100%;
 }
+    div {
+        overflow: scroll;
+    }
+    form {
+        width:100%;
+    }
+}
 @media screen and (max-width: 320px){
     body{
         width: 320px;

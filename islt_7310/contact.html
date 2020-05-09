@@ -9,7 +9,7 @@
     Author: Martina Diaz
     School/Term: Mizzou, Spring 2020
     Developed: April 5, 2020
-    Tested: May 3, 2020
+    Tested: May 9, 2020
 -->
             <meta charset="utf-8">
 
@@ -39,12 +39,28 @@
         </li>
     </ul>
     </nav>
-<main>
-    <p>Name:</p>
-    <p>Email:</p>
-    <p>Contact Number:</p>
-    <p>Question or Concern:</p>
-    </main>
+    <br>
+    <main>
+    <form action="mailto:mhdt44@missouri.mail.edu?Subject=20%Portfolio20%Website20%Contact" method="post" enctype="text/plain">
+        <div>
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" required>
+        </div>
+        <div>
+        <label for="firstname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" required>
+        </div>
+        <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+        <label for="message">Message</label>
+            <textarea type="text" name="message" id="message" placeholder="Type your message here." required></textarea>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+</main>
 <footer>
      <p>&copy; Copyright 2020, Martina Diaz </p>
 <p> <img class="footerimg" src="https://img.icons8.com/office/16/000000/email.png" alt="email">   

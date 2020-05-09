@@ -7,7 +7,7 @@
     Author: Martina Diaz
     School/Term: Mizzou, Spring 2020
     Developed: April 17, 2020
-    Tested: May 3, 2020
+    Tested: May 8, 2020
 -->
                <meta charset="utf-8">
                    <title>Background - Martina Diaz</title>
@@ -20,6 +20,15 @@
     color: #0099cc;
     font-size: 125%;
     font-style:italic;
+    }
+    tr:nth-child(odd) {
+        background-color: white;
+    }
+    tr:nth-child(even) {
+        background-color: darkgrey;
+    }
+    table {
+        border: 1px solid blue;
     }
 </style>
 </head>
@@ -44,27 +53,122 @@
 
     <h1>Background</h1>
     <p>Here is a list of courses for my program.</p>
-        <h2 style="color:darkblue;">Completed Courses</h2>
-    <ul>
-        <li class="complete">7383 - Rapid Development Tools for Online Learning. In this course, I learned how to use Adobe Captivate to create various learning experiences from students. 3 credits. Summer 2019 </li>
-        <li class="complete">7374 – Exploring Canvas. In this course, I learned how to navigate the Canvas platform and use it to design learning experiences. 1 credit. Summer 2019.</li>
-        <li class="complete">9450 – Introduction to Research in ISLT. In this course, I learned how to conduct research and compile results into a research paper. 3 credits. Fall 2019.</li>
-        <li class="complete">9471 – Instructional Systems Design. I learned about the different types of instructional systems and how to design learning depending on your goals. 3 credits. Fall 2019.</li>
-    </ul>
-    <h2>Current Courses</h2>
-    <ul>
-        <li class="current">7310 – Web Design and Development. 3 Credits. Spring 2020.</li>
-        <li class="current">7361 – Introduction to Digital Media. 3 Credits. Spring 2020.</li>
-        <li class="current">9473 – Project Management. 3 Credits. Spring 2020. </li>
-    </ul>
-    <h2>Future Courses </h2>
-    <ul>
-        <li class="future">9484 - Teaching Online Courses. 3 credits. Summer 2020.</li>
-        <li class="future">7310 – Grant Writing 101. 1 credit. Summer 2020.</li>
-        <li class="future">7310 – Agile Project Management. 1 credit. Summer 2020.</li>
-        <li class="future">9474 - Front End Analysis Systems. 3 credits. Fall 2020.</li>
-        <li class="future">9485 - Designing Online Learning. 3 credits. Fall 2020.</li>
-    </ul>
+    <div>
+    <table>
+        <caption>Completed Courses</caption>
+        <thead>
+        <tr style="background-color:aqua;">
+            <th>Course No.</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>No. of Credits</th>
+            <th>Term</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>7383</td>
+            <td>Rapid Development Tools for Online Learning</td>
+            <td>In this course, I learned how to use Adobe Captivate to create various learning experiences from students.</td>
+            <td>3</td>
+            <td>SU19</td>
+        </tr>
+        <tr>
+            <td>7374</td>
+            <td>Exploring Canvas</td>
+            <td>In this course, I learned how to navigate the Canvas platform and use it to design learning experiences.</td>
+            <td>3</td>
+            <td>SU19</td>
+        </tr>
+        <tr>
+            <td>9450</td>
+            <td>Introduction to Research in ISLT</td>
+            <td>In this course, I learned how to conduct research and compile results into a research paper.</td>
+            <td>3</td>
+            <td>FA19</td>
+        </tr>
+        <tr>
+            <td>9471</td>
+            <td>Instructional Systems Design</td>
+            <td>I learned about the different types of instructional systems and how to design learning depending on your goals.</td>
+            <td>3</td>
+            <td>FA19</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <div>
+    <table>
+        <caption>Current Courses</caption>
+        <thead>
+        <tr>
+            <th>Course No.</th>
+            <th>Title</th>
+            <th>No. of Credits</th>
+            <th>Term</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>7310</td>
+            <td>Web Design and Development</td>
+            <td>3</td>
+            <td>SP20</td>
+        </tr>
+        <tr>
+            <td>7361</td>
+            <td>Introduction to Digital Media</td>
+            <td>3</td>
+            <td>SP20</td>
+        </tr>
+        <tr>
+            <td>9473</td>
+            <td>Project Management</td>
+            <td>3</td>
+            <td>SP20</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <div>
+    <table>
+        <caption>Future Courses</caption>
+        <thead>
+        <tr>
+        <th>Course No.</th>
+        <th>Title</th>
+        <th>No. of Credits</th>
+        <th>Term</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>9484</td>
+            <td>Teaching Online Courses</td>
+            <td>3</td>
+            <td>SU20</td>
+        </tr>
+        <tr>
+            <td>9085</td>
+            <td>Problems in ISLT</td>
+            <td>2</td>
+            <td>SU20</td>
+        </tr>
+        <tr>
+            <td>9474</td>
+            <td>Front End Analysis Systems</td>
+            <td>3</td>
+            <td>FA20</td>
+        </tr>
+        <tr>
+            <td>9485</td>
+            <td>Designing Online Learning</td>
+            <td>3</td>
+            <td>FA20</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
  <footer>
      <p>&copy; Copyright 2020, Martina Diaz </p>
 <p> <img class="footerimg" src="https://img.icons8.com/office/16/000000/email.png" alt="email">   
