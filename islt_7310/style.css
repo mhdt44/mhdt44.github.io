@@ -54,11 +54,19 @@ footer {
     background-image: url(images/background_footer.jpg);
     background-size: cover; 
 }
-.footerimg {
+.thumb{
+    width:20px;
+    height:20px;
     float: left;
-    position:relative;
-    width: 15px;
-    height: 15px;
+}
+.thumbbig {
+    position:absolute;
+    width: 0px;
+   -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s; z-index:10;
+}
+.thumb:hover + .thumb {
+    width:50px;
 }
 ul {
     list-style-type:square;
