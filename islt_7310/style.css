@@ -6,17 +6,17 @@ src: url("fonts/Roboto/Roboto.ttf"); /*remember this is how we link to files in 
 
 }
 * {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 body {
     margin: 15px;
-    width: 960px;
+    width: 100%;
+    background-color: #F0F6FF ;
 }
 h1 {
-    color: #0099cc;
-    font-size: 150%;
+    color: #606060;
+    font-size: 200%;
     font-family: 'Roboto', sans-serif;
-    border:1px dashed darkblue;
     padding: 10px;
 } 
 img {
@@ -25,16 +25,16 @@ img {
     padding: 10px
 }
 .gray {
-    color: darkslategrey;
+    color: #525252;
 }
 .osu {                          /*Colors for lists*/
-    color:darkorange
+    color:#525252;
 }
 .mizzou {
-    color:darkgoldenrod
+    color:#525252;
 }
 .current {
-    color:cornflowerblue;
+    color:#525252;
 }
 .complete {
     color:darkblue;
@@ -51,7 +51,7 @@ footer {
     border:1px solid grey;
     width: 100%;
     padding: 2px;   
-    background-image: url(images/background_footer.jpg);
+    background-color: #606060;
     background-size: cover; 
 }
 .thumb{
@@ -64,6 +64,7 @@ footer {
     width: 0px;
    -webkit-transition: width 0.3s linear 0s;
     transition: width 0.3s linear 0s; z-index:10;
+    float: left;
 }
 .thumb:hover + .thumb {
     width:50px;
@@ -100,13 +101,11 @@ a:active {
 @media screen and (max-width: 640px){
      body {
         width:100%;
+         padding-right: 20px;
     }
     img {
         width: 100%;
 }
-    div {
-        overflow: scroll;
-    }
     form {
         width:100%;
     }
